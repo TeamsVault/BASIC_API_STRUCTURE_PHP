@@ -1,5 +1,5 @@
 
-# API Structure -- SLIM
+# API Structure -- SLIM FRAME WORK
 
 This is the basic API structure to start with and create a secure backend api's
 
