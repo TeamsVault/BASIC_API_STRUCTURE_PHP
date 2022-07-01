@@ -10,7 +10,7 @@ return function ($app) {
 
 
     $app->add(new Tuupola\Middleware\JwtAuthentication([
-        "ignore" => ["/auth/login", "/auth/register"],
+        "ignore" => ["/Generatejwt"],
         "secret" => SecretKeyInterface::SecretKey(),
         "error" => function ($response, $arguments) {
             $data["success"] = false;
